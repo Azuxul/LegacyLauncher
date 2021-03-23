@@ -57,7 +57,8 @@ Download or build the launcher and copy it to the library folder of your Minecra
 
 Then go to the `versions` folder at `%APPDATA%\.minecraft\versions` and copy the version folder you want and rename it `<version>-connect` for example.
 
-[IMG TO ADD LATER]
+![versions folder](https://user-images.githubusercontent.com/11092555/112206248-fe162c80-8c15-11eb-89d0-4cbc8fde7cdf.png)
+
 
 Then rename the `.jar` and `.json` with the same of the folder.
 
@@ -398,7 +399,7 @@ Start an alpha version of Minecraft from the official launcher.
 
 While the game is still open (important) go to `%APPDATA%\.minecraft\bin\` and copy the repertory with the more recent date of cration.
 
-[IMG TO ADD ON GITHUB]
+![bin folder](https://user-images.githubusercontent.com/11092555/112206346-1b4afb00-8c16-11eb-949d-3a59b38c3918.png)
 
 
 Now you can start the game using the launcher
