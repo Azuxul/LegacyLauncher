@@ -58,3 +58,10 @@ uploadArchives {
 clean << {
     repoDir.deleteDir()
 }
+
+jar {
+    // build jar with dependancies
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

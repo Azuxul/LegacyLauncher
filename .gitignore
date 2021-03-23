@@ -8,6 +8,7 @@ nbproject
 
 # gradle
 .gradle/
+logs/
 
 # vim
 .*.sw[a-p]
