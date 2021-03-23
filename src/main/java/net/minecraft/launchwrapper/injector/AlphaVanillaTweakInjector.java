@@ -69,8 +69,17 @@ public class AlphaVanillaTweakInjector implements IClassTransformer {
         String sessionId = "-";
         if (args.length > 1) sessionId = args[1];
 
+        if (args.length > 2)
+            params.put("server", args[2]);
+
+        String port = "25565";
+        if (args.length > 3)
+            port = args[3];
+
         params.put("username", name);
         params.put("sessionid", sessionId);
+        params.put("mppass", "");  // Add mppass parameter otherwise the client is kicked from the server at login
+        params.put("port", port);
 
         final Frame launcherFrameFake = new Frame();
         launcherFrameFake.setTitle("Minecraft");
