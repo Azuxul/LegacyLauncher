@@ -23,23 +23,25 @@ You need to have an alpha version of Minecraft launchable in the official launch
 
 First start the Minecraft official launcher, edit the settings and enable "Show historical versions of Minecraft: Java Edition in the launcher".
 
-[IMG TO ADD ON GITHUB]
+![Enable historical versions of Minecraft: Java Edition ](https://user-images.githubusercontent.com/11092555/112204599-21d87300-8c14-11eb-9ad0-221c60733c82.png)
 
-Then create a new "installation" of Minecraft with an alpha version for example v0.30
+Then create a new "installation" of Minecraft with an alpha/classic version for example v0.30
 
-[IMG TO ADD ON GITHUB]
+![Create an alpha/classic "installation" of Minecraft](https://user-images.githubusercontent.com/11092555/112204773-59dfb600-8c14-11eb-8b10-0ed08067bb99.png)
+
 
 
 ### Download an archived version of Minecraft alpha
 
 Use a list of old version of Minecraft from Omniarchive Wiki for example :
-[http://omniarchive.shoutwiki.com/wiki/Classic]()
+[http://omniarchive.shoutwiki.com/wiki/Classic](http://omniarchive.shoutwiki.com/wiki/Classic)
 
 You can also download servers from this list.
 
 Many archived version redirect to Minecraft Fandom Wiki when you can sometimes download the needed files :
 
-[IMG TO ADD ON GITHUB]
+![Download archived versions of Minecraft](https://user-images.githubusercontent.com/11092555/112205166-d377a400-8c14-11eb-96f3-0eae909db50b.png)
+
 
 Once the zip file is downloaded, copy it's content to the `version` folder of your `.minecraft` folder.
 Now you should be able to follow the steps described in "Play an alpha version of Minecraft from the official launcher".
@@ -374,7 +376,7 @@ This json file is configured to connect to a server with address `localhost` and
     }
   ],
   "mainClass":"net.minecraft.launchwrapper.Launch",
-  "minecraftArguments":"${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass net.minecraft.launchwrapper.AlphaVanillaTweaker",
+  "minecraftArguments":"${auth_player_name} ${auth_session} localhost 25565 --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass net.minecraft.launchwrapper.AlphaVanillaTweaker",
   "minimumLauncherVersion":7,
   "releaseTime":"2009-12-21T22:00:00+00:00",
   "time":"2009-12-21T22:00:00+00:00",
@@ -397,6 +399,7 @@ Start an alpha version of Minecraft from the official launcher.
 While the game is still open (important) go to `%APPDATA%\.minecraft\bin\` and copy the repertory with the more recent date of cration.
 
 [IMG TO ADD ON GITHUB]
+
 
 Now you can start the game using the launcher
 
